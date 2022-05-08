@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "git": "^0.1.5",
+    "nodemon": "^2.0.16"
+  }
+}

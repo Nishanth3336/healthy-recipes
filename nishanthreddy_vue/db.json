@@ -1,0 +1,37 @@
+{
+    "recipes" : [
+        {
+            "id" : 1,
+            "image" : "https://assets.bonappetit.com/photos/5f3d6f51b62c45d85d524706/1:1/w_2580%2Cc_limit/HLY-FMC-Corn-Miso-16x9-MH.jpg",
+            "recipeName" : "Corn & Chickpea Bowl with Miso-Jalapeño Tahini",
+            "description": "A quick sear gives corn kernels caramelized edges and concentrated flavor. Here, they're cooked with crisp chickpeas, then tossed with za'atar and dressed with a mixture of ginger, jalapeños, miso, and tahini. ",
+            "link" : "https://www.bonappetit.com/recipe/corn-and-chickpea-bowl-with-miso-jalapeno-tahini",
+            "prepTime": 4
+        },
+        {
+            "id" : 2,
+            "image" : "https://assets.bonappetit.com/photos/58c9688f48ee007350aee2d4/1:1/w_2580%2Cc_limit/toast-with-green-garlic-confit-and-poached-eggs.jpg",
+            "recipeName" : "Toast with Green Garlic Confit and Poached Eggs",
+            "description": "Three ingredients but infinite possibilities. Keep this mellow garlic condiment on hand and add a spoonful to soups, sandwiches, or pretty much anything.",
+            "link" : "https://www.bonappetit.com/recipe/toast-with-green-garlic-confit-and-poached-eggs",
+            "prepTime": 4
+        },
+        {
+            "id" : 3,
+            "image" : "https://assets.bonappetit.com/photos/58a7368fa801d83b71f0eaad/1:1/w_2580%2Cc_limit/Sabzi_HEALTHYISH%2520BLOODROOT%25203.jpg",
+            "recipeName" :"Spicy Cauliflower Sabzi with Cashews panroasted ",
+            "description": "This would make an excellent and filling vegetarian main course (add a dollop of yogurt and some cooked rice, if you like). It would also be great alongside pan-roasted pork chops, hanger steak, or a firm-fleshed fish such as cod.",
+            "link" : "https://www.bonappetit.com/recipe/spicy-cauliflower-sabzi-with-cashews",
+            "prepTime": 4
+        },
+        {
+            "id" : 4,
+            "image" : "https://assets.bonappetit.com/photos/588125e68503afa76d468b04/1:1/w_2580%2Cc_limit/spiced-chickpeas-with-crispy-pita-yogurt-and-brown-butter.jpg",
+            "recipeName" :  "Spiced Chickpeas with Crispy Pita, Yogurt, and Brown Butter",
+            "description": "This version of the Levantine breakfast dish, known as fatteh hummus, is all about the contrast of textures and flavors: crunchy pita chips, creamy chickpeas, and tart yogurt.",
+            "link" : "https://www.bonappetit.com/recipe/spiced-chickpeas-with-crispy-pita-yogurt-and-brown-butter",
+            "prepTime": 6
+        }
+    ]
+
+}

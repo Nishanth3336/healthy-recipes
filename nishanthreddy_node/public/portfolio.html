@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>NISHANTH REDDY GANGUMALLA</title>
+    <link rel="stylesheet" href="portfolio.CSS">
+
+    <style>
+        body{
+    background-color:  #060A32;
+}
+
+.container{
+     
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "displaypicture displaypicture contactdetails contactdetails"
+    "ABOUT ABOUT ABOUT ABOUT"
+    "EDUCATION EDUCATION EDUCATION EDUCATION"
+    "PROJECTS PROJECTS PROJECTS PROJECTS"
+    "EXPERIENCE EXPERIENCE BLOGS BLOGS"
+    "SKILLS SKILLS SKILLS SKILLS"
+    "footer footer footer footer"
+    ;
+}
+
+
+nav{
+    grid-area: nav;
+    background-color: #c7bc8f;
+    height: 35px;
+    padding: 10px;
+}
+
+.Navititle{
+    font-size: 17px;
+    margin: 10px;
+}
+
+
+.navigationbutton{
+    display: none;
+}
+
+.naviitems{
+    display: block;
+    float: right;
+    color:black;
+    margin: 10px;
+}
+
+.menuitems {
+    display: block;
+    float: right;
+}
+
+#displaypicture{
+    grid-area: displaypicture;
+}
+
+#contactdetails{
+    grid-area: contactdetails;
+    text-align:right;
+    font-size:20px;
+    color:white;
+    margin: 10px;
+    padding-top: 130px;
+}
+
+#ABOUT{
+    grid-area: ABOUT;
+    background-color: #c7bc8f;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#EDUCATION{
+    grid-area: EDUCATION;
+    background-color: #c7bc8f;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#PROJECTS{
+    grid-area: PROJECTS;
+    background-color: #c7bc8f;
+    border: 3px solid white; 
+    padding: 10px;
+    margin: 5px;
+}
+
+#EXPERIENCE{
+    grid-area: EXPERIENCE;
+    background-color: #c7bc8f;
+    border: 3px solid white;    
+    padding: 10px;
+    margin: 5px;
+}
+
+#BLOGS{
+    grid-area: BLOGS;
+    background-color:#c7bc8f;
+    border: 3px solid white; 
+    padding: 10px;
+    margin: 5px;
+}
+
+#SKILLS{
+    grid-area: SKILLS;
+    background-color: #c7bc8f;
+    border: 3px solid white; 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+footer{
+    background-color: sienna;
+    grid-area: footer;
+    background-color: #c7bc8f;
+    height: 60px;
+    padding: 10px;
+}
+.FOOTERITEMS{
+    padding: 10px;
+    width: 100px;
+  }
+  
+  .footer-copyright {
+      float: right;
+      color:rgb(46, 46, 185);
+  }
+
+
+  @media only screen and (max-width:500px){
+    .container{
+        height: 240vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.7fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "displaypicture"
+        "contactdetails"
+        "ABOUT"
+        "EDUCATION"
+        "PROJECTS"
+        "EXPERIENCE"
+        "BLOGS"
+        "SKILLS"
+        "footer"
+    }
+
+    #contactdetails{
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .navigationbutton{
+        display: block;
+        float: right;
+    }
+
+    .menuitems{
+        display: none;
+    }
+
+    .naviitems {
+        display: flex;
+        padding: 20px;
+        margin: none;
+        color: white;
+        background-color: #c7bc8f;
+    }
+
+    #ABOUT {
+        margin: 5px;
+    }
+
+    #EDUCATION {
+        margin: 5px;
+    }
+
+    #displaypicture{
+        display: block;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <span class="Navititle">NISHANTH REDDY GANGUMALLA</span>
+        <button class="navigationbutton">Menu</button>
+        <div class="menuitems">
+            <a class="naviitems" href="#SKILLS">SKILLS</a>
+            <a class="naviitems" href="#BLOGS">BLOGS</a>
+            <a class="naviitems" href="#EXPERIENCE">EXPERIENCE</a>
+            <a class="naviitems" href="#PROJECTS">PROJECTS</a>
+            <a class="naviitems" href="#EDUCATION">EDUCATION</a>
+            <a class="naviitems" href="#ABOUT">ABOUT</a>
+        </div>
+    </nav>
+
+        <div id="displaypicture" >
+            <img src="https://nishanthhealthrecipies.herokuapp.com/pic"></img>
+        </div>
+
+        <div id="contactdetails">
+        <i class="fa fa-phone">4753233903</i><br><i class="fa fa-envelope"> nishanth9@gmail.com</i><br><i class="fa fa-location-arrow"> 153 BullHill Ln, WH</i>
+        </div>
+
+        <div id="ABOUT">
+            ABOUT <i class="fa fa-blogger"></i>
+    <p> Currently Pursuring Masters in Computer Science at University of New Haven Connecticut, USA</p></div>
+        </div>
+
+        <div id="EDUCATION">
+            EDUCATION <i class="fa fa-graduation-cap"></i>
+    <div><ul>
+        <li>UNIVERSITY OF NEW HAVEN (2021-2023)</li>
+        <li>B.V.RAJU INSTITUTE OF TECHNOLOGY (2016-2020)</li>
+    </ul></div> </div>
+    <br>
+        </div>
+        <div id="PROJECTS">
+            PROJECTS <i class="fa fa-square-p"></i>
+        <div><ol>
+            <li>TRI POWER SMART STREET LIGHT</li>
+            <li>STUDENT TRAVEL INSURANCE POLICY(PEGA)</li>
+            <li>COURSE ENROLLMENT(PEGA)</li>
+        </ol></div>
+    </div>
+<br>
+        </div>
+        <div id="EXPERIENCE">
+            EXPERIENCE <i class="fa fa-briefcase"></i>
+        <P> CERTIFIED SYSTEM ARCHITECT PEGA (2019-2020)
+        </P>
+        </div>
+        <div id="BLOGS">
+            BLOGS <i class="fa fa-blogger"></i>
+        <P>In the near future i would like to work on the implementation of my IOT projects in large scale and also publish a research based on usage of cloud in IOT </P>
+        </div>
+        <div id="SKILLS">
+            SKILLS
+    <ul>
+        <li>JAVA PROGRAMMING</li>
+        <li>PEGA</li>
+        <li>DEVOPS</li>
+    </ul>
+        </div>
+        <footer>
+            <a class="FOOTERITEMS" href="https://www.facebook.com/nishanth3999/"><i class="fa fa-facebook" ></i></a>
+<a class="FOOTERITEMS" href="https://www.twitter.com/Nishanth92791729/"><i class="fa fa-twitter"></i></a>
+<a class="FOOTERITEMS" href="https://www.linkedin.com/in/nishanth-reddy-471792182/"><i class="fa fa-linkedin"></i></a>
+<a class="FOOTERITEMS" href="https://www.instagram.com/nishanth.reddy/"><i class="fa fa-instagram"></i></a>
+
+<div>
+    <i class="footer-copyright fa fa-copyright">Nishanth Reddy</i>
+</div>
+        </footer>
+    </div>
+    <script>
+        const navButton = document.querySelector(".navigationbutton")
+        const items = document.querySelector(".menuitems ")
+        navButton.addEventListener("mouseover", dropdownNav)
+
+        function dropdownNav() {
+            items.style.display = "block"
+            setTimeout(function() {
+                items.style.display = "none"
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
